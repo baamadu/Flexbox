@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 100vh;
+    height: 5vh;
+}
+
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 100vh;
+  height: 5vh;
+
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple ;
+}
+
+.card4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.card5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red ;
+}
