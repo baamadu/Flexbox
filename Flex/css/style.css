@@ -1,59 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-main{
+  }
+   
+  body {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-
-.cards{
+    flex-direction: column; /* Align sections vertically */
+    min-height: 100vh; /* Ensure full page height */
+  }
+   
+  .wrapper {
+    display: flex;
+    flex: 1; /* Make wrapper take up remaining space */
+    flex-direction: column; /* Stack content vertically */
+  }
+   
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+   
+  .aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
-    width: 100vh;
-    height: 5vh;
-}
-
-
-.card1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  width: 100vh;
-  height: 5vh;
-
-}
-
-.card2 {
+    flex: 1;
+  }
+   
+  .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: orange;
-}
-
-.card3 {
+    flex: 2;
+  }
+   
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+   
+  .layout {
+    border: 5px solid black;
+  }
+   
+  .buttonsign {
+    color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: purple ;
-}
-
-.card4 {
+    padding: 10px;
+    gap: 200px;
+  }
+   
+  .nav a.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+   
+  .main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: yellow;
-}
-
-.card5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:red ;
-}
+  }
