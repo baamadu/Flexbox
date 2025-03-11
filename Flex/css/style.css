@@ -73,15 +73,20 @@ footer {
   align-items: center;
 }
 
-.Flix {
-  width: 40px;
-  height: 40px;
+.Flix-img {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
 }
 
 .Flix-img img {
   width: 21%;
   height: auto;
   border-radius: 5%;
+
+
 }
 
 .green {
